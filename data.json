@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "AI Content Generator",
+    "description": "Generate high-quality blog posts, ads, and social media content using AI.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Unlimited content", "SEO optimization", "Multi-language support"],
+    "icon": "📝"
+  },
+  {
+    "id": 2,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes with modern templates and ATS optimization.",
+    "price": 9,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
+    "icon": "📄"
+  },
+  {
+    "id": 3,
+    "name": "Social Media Kit",
+    "description": "Design stunning social media posts and branding assets easily.",
+    "price": 25,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["500+ templates", "Drag & drop editor", "Custom branding"],
+    "icon": "📱"
+  },
+  {
+    "id": 4,
+    "name": "UI Design Pack",
+    "description": "Premium UI kits and components for web and mobile design projects.",
+    "price": 49,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["200+ UI components", "Figma support", "Responsive layouts"],
+    "icon": "🎨"
+  },
+  {
+    "id": 5,
+    "name": "Code Snippet Library",
+    "description": "Access reusable code snippets for faster development.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["1000+ snippets", "Multi-language", "Copy & paste ready"],
+    "icon": "💻"
+  },
+  {
+    "id": 6,
+    "name": "Productivity Dashboard",
+    "description": "Track tasks, goals, and performance in one dashboard.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Task tracking", "Analytics", "Goal setting"],
+    "icon": "📈"
+  }
+]
