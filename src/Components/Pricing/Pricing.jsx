@@ -99,7 +99,6 @@ const Pricing = () => {
   </div>
       </div> 
    
-   
     </>
   );
 };

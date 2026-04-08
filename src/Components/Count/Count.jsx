@@ -1,5 +1,3 @@
-// import React from "react";
-
 import { useEffect, useState } from "react";
 
 const useCounter = (end, duration = 2000, isDecimal = false) => {
