@@ -43,7 +43,7 @@ const Card3 = () => {
                 <img src={card3Img3} alt="" className="items-center inline bg-[#f4e8fe] rounded-full py-2 px-2 "/>
                 </div>
                 <h3 className="font-bold text-xl text-[#101727] py-4">Start Creating</h3>
-                <p className="text-[#627382] leading-5 pb-8">Download and start using your premium <br />tools immediately.</p>
+                <p className="text-[#627382] leading-5 pb-8">Download and start using your premium <br/>tools immediately.</p>
             </div>
       
                 
