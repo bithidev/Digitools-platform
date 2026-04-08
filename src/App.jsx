@@ -12,7 +12,7 @@ import { ToastContainer } from 'react-toastify'
 
 
 const fetchProduct = async()=> {
-const rest = await fetch("/data.json");
+const rest = await fetch("/Digitools-platform/data.json");
 return rest.json();
 };
 function App() {
