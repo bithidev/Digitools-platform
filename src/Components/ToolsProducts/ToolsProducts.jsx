@@ -59,15 +59,12 @@ return (
        selectedProducts={selectedProducts}
     />
   ) : (
-  //  <CartProducts 
-  //   selectedProducts={selectedProducts} 
-  //   handleRemoveFromCart={handleRemoveFromCart}
-  // />
-  <CartProducts 
-  selectedProducts={selectedProducts} 
-  handleRemoveFromCart={handleRemoveFromCart}
-  handleClearCart={handleClearCart}
-/>
+  
+   <CartProducts 
+      selectedProducts={selectedProducts} 
+      handleRemoveFromCart={handleRemoveFromCart}
+      handleClearCart={handleClearCart}
+   />
   )}
      </div>
       

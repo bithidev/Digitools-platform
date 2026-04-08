@@ -2,12 +2,11 @@ import React from "react";
 
 
 const CartProducts = ({ selectedProducts, handleRemoveFromCart, handleClearCart }) => {
-// const CartProducts = ({ selectedProducts, handleRemoveFromCart }) => {
+
 
   const total = selectedProducts.reduce((sum, item) => sum + item.price, 0);
   
-//  const CartProducts = ({ selectedProducts, handleRemoveFromCart, handleClearCart }) => {
-// };
+
   return (
     <>
       <div className="container mx-auto border border-[#F2F2F2] rounded-2xl p-10">
@@ -40,8 +39,7 @@ const CartProducts = ({ selectedProducts, handleRemoveFromCart, handleClearCart 
           <span className="font-bold text-2xl text-[#101727] justify-end">${total}</span>
       </div>
         </div>
-      
-      {/* <button className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full w-full py-3 px-4 font-bold">Proceed to Checkout</button> */}
+     
      <button 
   onClick={handleClearCart}
   className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full w-full py-3 px-4 font-bold"
