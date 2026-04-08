@@ -11,9 +11,13 @@ import ToolsProducts from './Components/ToolsProducts/toolsProducts'
 import { ToastContainer } from 'react-toastify'
 
 
-const fetchProduct = async()=> {
-const rest = await fetch("/Digitools-platform/data.json");
-return rest.json();
+// const fetchProduct = async()=> {
+// const rest = await fetch("/Digitools-platform/data.json");
+// return rest.json();
+// };
+const fetchProduct = async () => {
+  const res = await fetch(`${import.meta.env.BASE_URL}data.json`);
+  return res.json();
 };
 function App() {
 const cardsPromise = fetchProduct();
